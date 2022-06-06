@@ -1,0 +1,44 @@
+[debug] [2022-06-06T03:54:19.291Z] ----------------------------------------------------------------------
+[debug] [2022-06-06T03:54:19.293Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\61484\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-06-06T03:54:19.293Z] CLI Version:   10.2.1
+[debug] [2022-06-06T03:54:19.293Z] Platform:      win32
+[debug] [2022-06-06T03:54:19.293Z] Node Version:  v12.19.0
+[debug] [2022-06-06T03:54:19.295Z] Time:          Mon Jun 06 2022 13:54:19 GMT+1000 (Australian Eastern Standard Time)
+[debug] [2022-06-06T03:54:19.295Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-06T03:54:19.368Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-06T03:54:19.369Z] > authorizing via signed-in user (scottolero@safegauge.com.au)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\61484\Downloads\MQTT-Client-Examples-master\MQTT-Client-Examples-master\mqtt-client-React
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-06-06T03:54:27.043Z] Using project from CLI flag: safegauge-testing
+[debug] [2022-06-06T03:54:27.047Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/safegauge-testing [none]
+[debug] [2022-06-06T03:54:27.586Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/safegauge-testing 200
+[debug] [2022-06-06T03:54:27.586Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/safegauge-testing {"projectId":"safegauge-testing","projectNumber":"696848602244","displayName":"SAFEGAUGE-Testing","name":"projects/safegauge-testing","resources":{"hostingSite":"safegauge-testing"},"state":"ACTIVE"}
+[info] i  Using project safegauge-testing (SAFEGAUGE-Testing) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
